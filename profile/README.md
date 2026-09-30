@@ -1,6 +1,6 @@
 <div align="center">
 
-# Authloom
+# Auth Loom
 
 **Write the auth once. Use it from every language.**
 
@@ -12,7 +12,7 @@ An open-source authentication, authorization and security library. There's one h
 
 ---
 
-## Why Authloom exists
+## Why Auth Loom exists
 
 In an application, auth is where one small mistake does the most damage. Even so, every language ecosystem builds it again from scratch. Each new version brings its own session fixation bugs, timing leaks, weak token handling and OAuth mistakes.
 
