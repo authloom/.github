@@ -1,18 +1,18 @@
 <div align="center">
 
-# Auth Loom
+# Auth Fil
 
 **Write the auth once. Use it from every language.**
 
 An open-source authentication, authorization and security library. There's one hardened Rust core, and every programming language gets thin native adapters on top of it.
 
-[Docs](https://authloom.github.io/auth-loom/) · [Core repo](https://github.com/authloom/auth-loom) · [Roadmap](https://github.com/authloom/auth-loom/blob/main/docs/src/content/docs/project/roadmap.md) · [Security](https://github.com/authloom/auth-loom/blob/main/SECURITY.md)
+[Docs](https://authfil.github.io/auth-fil/) · [Core repo](https://github.com/authfil/auth-fil) · [Roadmap](https://github.com/authfil/auth-fil/blob/main/docs/src/content/docs/project/roadmap.md) · [Security](https://github.com/authfil/auth-fil/blob/main/SECURITY.md)
 
 </div>
 
 ---
 
-## Why Auth Loom exists
+## Why Auth Fil exists
 
 In an application, auth is where one small mistake does the most damage. Even so, every language ecosystem builds it again from scratch. Each new version brings its own session fixation bugs, timing leaks, weak token handling and OAuth mistakes.
 
@@ -31,7 +31,7 @@ flowchart TB
         rust["Rust"]
     end
     boundary(["Validated FFI boundary"])
-    core["<b>Authloom core (Rust)</b><br/>sans-IO · policy · crypto"]
+    core["<b>Authfil core (Rust)</b><br/>sans-IO · policy · crypto"]
     node & python & go & java --> boundary --> core
     rust --> core
 ```
@@ -60,12 +60,12 @@ flowchart TB
 
 Threat modelling, fuzzing, supply-chain checks (`cargo-deny`), `#![forbid(unsafe_code)]` in the core and external review are part of the project from the start, not added at the end.
 
-**Found a vulnerability?** Please don't open a public issue. Follow our [security policy](https://github.com/authloom/auth-loom/blob/main/SECURITY.md).
+**Found a vulnerability?** Please don't open a public issue. Follow our [security policy](https://github.com/authfil/auth-fil/blob/main/SECURITY.md).
 
 ## Get involved
 
-- ⭐ Star [auth-loom](https://github.com/authloom/auth-loom) to follow progress
-- 📖 Read the [contributing guide](https://github.com/authloom/auth-loom/blob/main/CONTRIBUTING.md). Security-sensitive changes follow a specific workflow.
+- ⭐ Star [auth-fil](https://github.com/authfil/auth-fil) to follow progress
+- 📖 Read the [contributing guide](https://github.com/authfil/auth-fil/blob/main/CONTRIBUTING.md). Security-sensitive changes follow a specific workflow.
 - 🌐 Want your language supported? Open an issue to propose an adapter.
 
 <div align="center">
